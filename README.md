@@ -6,7 +6,7 @@ Project built following Udemy course: https://www.udemy.com/course/building-a-mo
 
 This is the go module we are building, containing our tools and test files.
 
-Not included is the app folder in the same go workspace used to test the package
+Not included is the app folder in the same go workspace used to test the package.
 
 ## Calling methods in this package
 
@@ -20,6 +20,8 @@ fmt.Println(tools.RandomString(25))
 	
 	
 ## Go Workspace
+
+[Go Workspaces Tutorial](https://go.dev/doc/tutorial/workspaces)
 
 cmd `go work init toolkit app` used to create a go workspace containing these two folders.
 this is go 1.18 and above
